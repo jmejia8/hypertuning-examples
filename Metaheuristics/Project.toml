@@ -1,3 +1,8 @@
 [deps]
 HardTestProblems = "017f2a17-63a9-4ea1-9ce1-f7de69e6e227"
 Metaheuristics = "bcdb8e00-2c21-11e9-3065-2b553b22f898"
+
+[compat]
+HardTestProblems = "^0.1.2"
+Metaheuristics = "^3.2.13"
+julia = "1.7"
