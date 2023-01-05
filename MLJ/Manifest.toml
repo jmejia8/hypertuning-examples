@@ -280,6 +280,12 @@ git-tree-sha1 = "2e13c9956c82f5ae8cbdb8335327e63badb8c4ff"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 version = "1.6.2"
 
+[[deps.HyperTuning]]
+deps = ["Distributed", "PrettyTables", "Printf", "Random", "Reexport", "SearchSpaces", "Statistics", "UnPack"]
+git-tree-sha1 = "706f02c5841ab76b76012bd2c37f88e8042b6396"
+uuid = "ddfa78db-9111-4329-a6bd-d4ed85ceb229"
+version = "0.1.0"
+
 [[deps.HypergeometricFunctions]]
 deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions", "Test"]
 git-tree-sha1 = "709d864e3ed6e3545230601f94e11ebc65994641"
@@ -674,6 +680,12 @@ deps = ["Dates"]
 git-tree-sha1 = "f94f779c94e58bf9ea243e77a37e16d9de9126bd"
 uuid = "6c6a2e73-6563-6170-7368-637461726353"
 version = "1.1.1"
+
+[[deps.SearchSpaces]]
+deps = ["Combinatorics", "Random"]
+git-tree-sha1 = "6c486a03bb16a60f575dc80192acba9a59b8b689"
+uuid = "eb7571c6-2196-4f03-99b8-52a5a35b3163"
+version = "0.1.2"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"

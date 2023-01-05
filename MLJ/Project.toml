@@ -1,4 +1,12 @@
 [deps]
+HyperTuning = "ddfa78db-9111-4329-a6bd-d4ed85ceb229"
 MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 MLJLinearModels = "6ee0df7b-362f-4a72-a706-9e79364fb692"
 MLJModels = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
+
+[compat]
+HyperTuning = "0.1"
+MLJ = "0.19.0"
+MLJLinearModels = "0.8.0"
+MLJModels = "0.16.2"
+julia = "1.7"

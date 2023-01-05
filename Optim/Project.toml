@@ -1,3 +1,9 @@
 [deps]
+HyperTuning = "ddfa78db-9111-4329-a6bd-d4ed85ceb229"
 LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+[compat]
+HyperTuning = "^0.1"
+LineSearches = "^7.2"
+Optim = "^1.7"
