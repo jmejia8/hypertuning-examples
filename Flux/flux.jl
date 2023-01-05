@@ -131,6 +131,8 @@ scenario = Scenario(### hyperparameters
                     max_trials = 30, # maximum number of hyperparameters computed
                    )
 
+display(scenario)
+
 # minimize accuracy error
 HyperTuning.optimize(objective, scenario)
 
